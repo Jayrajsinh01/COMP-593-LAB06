@@ -34,8 +34,9 @@ if calc_hash != _hash:
     if os.path.exists(Jayraj_name):
         os.system(Jayraj_name)
 
+
     # Deleting the installer file
     if os.remove(Jayraj_name):
-        print(f"{Jayraj_name} SUCCESSFULLY DELETED.")
+        print(f"{Jayraj_name}SUCCESSFULLY DELETED.")
 
     
